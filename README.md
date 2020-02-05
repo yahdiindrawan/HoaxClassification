@@ -1,2 +1,2 @@
-# HoaxClassification_CNN
-Hoax Classification using Convolutional Neural Network Algorithm
+# HoaxClassification
+Hoax Classification using Convolutional Neural Networks, Recurrent Neural Networks and Hierarchical Attention Networks Algorithm
