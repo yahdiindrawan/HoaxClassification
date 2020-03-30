@@ -93,7 +93,7 @@
     <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
       <!-- Sidebar - Brand -->
-      <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+      <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.php?halaman=dashboard">
         <div class="sidebar-brand-icon rotate-n-15">
           <i class="fas fa-laugh-wink"></i>
         </div>
@@ -106,7 +106,7 @@
       <!-- Nav Item - Dashboard -->
       <li class="nav-item active">
         <a class="nav-link" href="index.php?halaman=dashboard">
-          <i class="fas fa-fw fa-tachometer-alt"></i>
+          <i class="fas fa-fw fa-home"></i>
           <span>Dashboard</span></a>
       </li>
 
@@ -116,13 +116,13 @@
       <!-- Nav Item - Tables -->
       <li class="nav-item">
         <a class="nav-link" href="index.php?halaman=admin">
-          <i class="fas fa-fw fa-table"></i>
+          <i class="fas fa-fw fa-user"></i>
           <span>Data Admin</span></a>
       </li>
 
       <li class="nav-item">
         <a class="nav-link" href="index.php?halaman=cek_hoax">
-          <i class="fas fa-fw fa-newspaper"></i>
+          <i class="fas fa-fw fa-search"></i>
           <span>Data Cek Hoax!</span></a>
       </li>
 
@@ -140,25 +140,25 @@
 
       <li class="nav-item">
         <a class="nav-link" href="index.php?halaman=testing">
-          <i class="fas fa-fw fa-images"></i>
+          <i class="fas fa-fw fa-file"></i>
           <span>Data Testing</span></a>
       </li>
 
       <li class="nav-item">
         <a class="nav-link" href="index.php?halaman=pengujian">
-          <i class="fas fa-fw fa-info"></i>
+          <i class="fas fa-fw fa-stream"></i>
           <span>Data Pengujian</span></a>
       </li>
 
       <li class="nav-item">
         <a class="nav-link" href="index.php?halaman=CNN">
-          <i class="fas fa-fw fa-industry"></i>
+          <i class="fas fa-fw fa-chart-line"></i>
           <span>Model CNN</span></a>
       </li>
 
       <li class="nav-item">
         <a class="nav-link" href="index.php?halaman=perbaharui_model">
-          <i class="fas fa-fw fa-industry"></i>
+          <i class="fas fa-fw fa-wrench"></i>
           <span>Perbaharui Model</span></a>
       </li>
 
@@ -166,7 +166,7 @@
 
       <li class="nav-item">
         <a class="nav-link" href="../index.php" target="_blank">
-          <i class="fas fa-fw fa-window-restore"></i>
+          <i class="fas fa-fw fa-random"></i>
           <span>Go to Website</span></a>
       </li>
 
