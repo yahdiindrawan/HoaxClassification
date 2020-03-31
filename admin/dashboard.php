@@ -15,8 +15,13 @@
     $total_pengujian = $pengujian->num_rows;
 
 ?>
-<!-- Content Row -->
-          <div class="row">
+
+<div class="card shadow mb-4">
+  <div class="card-header py-3">
+    <h6 class="m-0 font-weight-bold text-primary">Dashboard</h6>
+  </div>
+  <div class="card-body">
+    <div class="row">
 
             <!-- Total Data Admin -->
             <div class="col-xl-3 col-md-6 mb-4">
@@ -146,4 +151,16 @@
 
             
           </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+<!-- Content Row -->
+          
           <!-- Content Row -->
