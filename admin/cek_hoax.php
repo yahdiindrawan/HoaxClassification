@@ -44,6 +44,7 @@
           <td><?php echo $cek['klasifikasi'];?></td>
           <td>
             <a href="index.php?halaman=detail_cek&id=<?php echo $cek['id_cek'] ;?>" class="btn btn-primary btn-sm"><i class="fas fa-info-circle"></i></a>
+            <a href="index.php?halaman=hapus_cek&id=<?php echo $cek['id_cek'] ;?>" class="btn btn-danger btn-sm" onclick="return confirm('Yakin Hapus ?')"><i class="fas fa-trash"></i></a>
           </td>
         </tr>
         <?php $no++; } ?>
