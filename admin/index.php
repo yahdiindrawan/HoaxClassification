@@ -158,7 +158,7 @@
 
       <li class="nav-item">
         <a class="nav-link" href="index.php?halaman=perbaharui_model">
-          <i class="fas fa-fw fa-wrench"></i>
+          <i class="fas fa-fw fa-sync"></i>
           <span>Perbaharui Model</span></a>
       </li>
 
@@ -245,6 +245,9 @@
                   else if($_GET['halaman']=="detail_cek"){
                       include 'detail_cek.php';
                   }
+                  else if($_GET['halaman']=="hapus_cek"){
+                      include 'hapus_cek.php';
+                  }
                   else if($_GET['halaman']=="lapor_hoax"){
                       include 'lapor_hoax.php';
                   }
@@ -282,54 +285,6 @@
                       include 'hapus_model.php';
                   }
 
-
-
-
-                  else if($_GET['halaman']=="cek_hoax"){
-                      include 'cek_hoax.php';
-                  }
-                  else if($_GET['halaman']=="proses_cek"){
-                      include 'proses_cek.php';
-                  }
-                  else if($_GET['halaman']=="edit_cek_hoax"){
-                      include 'edit_cek_hoax.php';
-                  }
-                  else if($_GET['halaman']=="hapus_cek_hoax"){
-                      include 'hapus_cek_hoax.php';
-                  }
-                  else if($_GET['halaman']=="kumpulan_berita"){
-                      include 'kumpulan_berita.php';
-                  }
-                  else if($_GET['halaman']=="edit_kumpulan_berita"){
-                      include 'edit_kumpulan_berita.php';
-                  }
-                  else if($_GET['halaman']=="hapus_kumpulan_berita"){
-                      include 'hapus_kumpulan_berita.php';
-                  }
-                  else if($_GET['halaman']=="lapor_hoax"){
-                      include 'lapor_hoax.php';
-                  }
-                  else if($_GET['halaman']=="edit_lapor_hoax"){
-                      include 'edit_lapor_hoax.php';
-                  }
-                  else if($_GET['halaman']=="hapus_lapor_hoax"){
-                      include 'hapus_lapor_hoax.php';
-                  }
-                  else if($_GET['halaman']=="partner"){
-                      include 'partner.php';
-                  }
-                  else if($_GET['halaman']=="edit_partner"){
-                      include 'edit_partner.php';
-                  }
-                  else if($_GET['halaman']=="hapus_partner"){
-                      include 'hapus_partner.php';
-                  }
-                  else if($_GET['halaman']=="informasi"){
-                      include 'informasi.php';
-                  }
-                  else if($_GET['halaman']=="hapusfasilitas"){
-                      include 'hapus_fasilitas.php';
-                  }
               }
               else{
                   //include 'index.php';
@@ -436,12 +391,12 @@
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+          <h5 class="modal-title" id="exampleModalLabel">Anda yakin ingin keluar?</h5>
           <button class="close" type="button" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">×</span>
           </button>
         </div>
-        <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+        <div class="modal-body">Pilih "Logout" jika ingin keluar.</div>
         <div class="modal-footer">
           <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
           <a class="btn btn-primary" href="logout.php">Logout</a>
