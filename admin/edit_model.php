@@ -31,7 +31,7 @@
         </select>
       </div>
 
-      <a href="index.php?halaman=lapor_hoax" class="btn btn-secondary">Back</a>&nbsp;
+      <a href="index.php?halaman=perbaharui_model" class="btn btn-secondary">Back</a>&nbsp;
 			<button class="btn btn-primary" name="update">Update</button>
 		</form>
       </div>
