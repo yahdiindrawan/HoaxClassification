@@ -242,6 +242,9 @@
                   else if($_GET['halaman']=="cek_hoax"){
                       include 'cek_hoax.php';
                   }
+                  else if($_GET['halaman']=="proses_cek"){
+                      include 'proses_cek.php';
+                  }
                   else if($_GET['halaman']=="detail_cek"){
                       include 'detail_cek.php';
                   }
