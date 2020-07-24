@@ -159,30 +159,6 @@
               <center>
               <img id="img_hoax" width="400px" height="300px">
               </center>
-              <small style="font-weight: bold;">Data Awal</small><br>
-              <small id="data_awal"></small><br>
-              <small style="font-weight: bold;">Case Folding</small><br>
-              <small id="case_folding"></small><br>
-              <small style="font-weight: bold;">Remove Punctuation</small><br>
-              <small id="remove_punctuation"></small><br>
-              <small style="font-weight: bold;">Remove Number</small><br>
-              <small id="remove_number"></small><br>
-              <small style="font-weight: bold;">Tokenizing</small><br>
-              <small id="tokenizing"></small><br>
-              <small style="font-weight: bold;">Stopword</small><br>
-              <small id="stopword"></small><br>
-              <small style="font-weight: bold;">Stemming</small><br>
-              <small id="stemming"></small><br>
-              <small style="font-weight: bold;">Hasil Preprocessing</small><br>
-              <small id="hasil_preprocessing"></small><br>
-              <small style="font-weight: bold;">Vektor</small><br>
-              <small id="vektor"></small><br>
-              <small style="font-weight: bold;">Probabilitas</small><br>
-              <small id="probabilitas"></small><br>
-              <small style="font-weight: bold;">Probabilitas Pembulatan</small><br>
-              <small id="probabilitas_pembulatan"></small><br>
-              <small style="font-weight: bold;">Hasil Klasifikasi</small><br>
-              <small id="klasifikasi"></small><br>
 
             </div>
           
